@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn_me {
+    width: 200px;
+    
+} 
+
+.btn_me:hover {
+    color: white;
+    background-image: linear-gradient(red, grey, blue);
+    border-radius: 50px;
+    border: none;
+}
+
+.btn_me:active{
+    color: white;
+    background-image: radial-gradient(red, grey, blue);
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
+.check:checked + .div_one    {
+    color: red;
+    background-color: yellow;
+}
+
+
+
+
+.disebl:disabled{
+    background-color: red;
+}
+
+
+
+
+
+.focuses:focus{
+    background-color: red;
+    outline: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.block div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+.block div:first-child{
+    background-color: red;
+}
+
+.block div:last-child{
+    background-color: aqua;
+}
+
+.block div:nth-child(3){
+    background-color: yellow;
+} 
+
+
+
+
